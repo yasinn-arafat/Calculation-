@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  background: url(./images/pexels-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  font-family: "Roboto", sans-serif;
+}
+.box {
+  width: 382px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  background: black;
+  height: 535px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#value1 {
+  margin-top: 20px;
+  margin-bottom: 33px;
+}
+
+#value2 {
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: bisque;
+  font-size: 43px;
+  font-weight: 600;
+  padding-top: 34px;
+}
+input {
+  width: 64%;
+  height: 30px;
+  background: whitesmoke;
+  border: none;
+}
+#btn {
+  margin-top: 30px;
+  padding: 10px 23px;
+  font-size: 20px;
+  cursor: pointer;
+  background: #ff4655;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#btn:hover {
+  background-color: bisque;
+  color: #000;
+}
+#display {
+  margin: auto;
+  width: 45%;
+  /* background-color: aliceblue; */
+  color: aqua;
+  margin-top: 25px;
+}
+
+/* -------------------- */
+
+@media only screen and (max-width: 400px) {
+  .box {
+    width: 282px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  h1 {
+    font-size: 32px;
+    padding-top: 34px;
+  }
+  #btn {
+    margin-top: 30px;
+    padding: 8px 20px;
+  }
+}
